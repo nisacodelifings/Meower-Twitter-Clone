@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+body{
+  background: #4A154B;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.title {
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+.error-message {
+  background: #ff9b9b;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.mew-form, .loading {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+}
+
+.mews {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mews > div {
+  background: black;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.mews > div > h3 {
+  word-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #4A154B;
+}
+
+.mews > div > p {
+  word-wrap: break-word;
+  border: 2px solid #4A154B;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.mews > div:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
